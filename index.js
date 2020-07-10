@@ -65,12 +65,12 @@ ${response.description}
 
 ## Table of Contents
 
-####Installation
-####Usage information
-####License
-####Contributing
-####Tests
-####Questions
+###Installation
+###Usage information
+###License
+###Contributing
+###Tests
+###Questions
 
 ## Installation
 ${response.installation}
