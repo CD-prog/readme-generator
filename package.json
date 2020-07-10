@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CD-prog/readme-generator.git"
+  },
+  "author": "claudiu diaconeasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CD-prog/readme-generator/issues"
+  },
+  "homepage": "https://github.com/CD-prog/readme-generator#readme",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "inquirer": "^7.3.1"
+  }
+}
