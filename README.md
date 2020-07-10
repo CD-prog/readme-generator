@@ -10,12 +10,12 @@ a command-line application that dynamically generates a professional README.md f
 
 ## Table of Contents
 
-###Installation
-###Usage information
-###License
-###Contributing
-###Tests
-###Questions
+#### Installation
+#### Usage information
+#### License
+#### Contributing
+#### Tests
+#### Questions
 
 ## Installation
 node index.js
