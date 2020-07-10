@@ -1,5 +1,5 @@
 
-[![MIT license](https://img.shields.io/badge/License-Apache2-blue.svg)](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 # readme-generator
 
@@ -10,12 +10,12 @@ a command-line application that dynamically generates a professional README.md f
 
 ## Table of Contents
 
-Installation
-Usage information
-License
-Contributing
-Tests
-Questions
+####Installation
+####Usage information
+####License
+####Contributing
+####Tests
+####Questions
 
 ## Installation
 node index.js
@@ -24,14 +24,14 @@ node index.js
 any
 
 ## License
-Apache2
+MIT
 
 ## Contributing
-Claudiu D
+Claudiu Diaconeasa
 
 ## Tests
+n/a
 
-
-## Questions ? :
-[!(https://github.com/CD-prog)]
-c.diaconeasa@gmail.com
+## Questions ?
+### https://github.com/CD-prog
+### c.diaconeasa@gmail.com

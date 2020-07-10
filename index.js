@@ -65,12 +65,12 @@ ${response.description}
 
 ## Table of Contents
 
-Installation
-Usage information
-License
-Contributing
-Tests
-Questions
+####Installation
+####Usage information
+####License
+####Contributing
+####Tests
+####Questions
 
 ## Installation
 ${response.installation}
@@ -87,9 +87,9 @@ ${response.contributing}
 ## Tests
 ${response.tests}
 
-## Questions ? :
-[!(https://github.com/${response.github})]
-${response.email}
+## Questions ?
+### https://github.com/${response.github}
+### ${response.email}
 `
         fs.writeFile('readme.md', text, function (err) {
             if (err) throw err;
