@@ -1,20 +1,21 @@
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-Apache2-blue.svg)](https://lbesson.mit-license.org/)
 
 # readme-generator
 
 ## Description
-A command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
+a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
 
 
 
 ## Table of Contents
-### Installation
-### Usage information
-### License
-### Contributing
-### Tests
-### Contact
+
+Installation
+Usage information
+License
+Contributing
+Tests
+Questions
 
 ## Installation
 node index.js
@@ -23,13 +24,14 @@ node index.js
 any
 
 ## License
-MIT
+Apache2
 
 ## Contributing
-Claudiu Diaconeasa
+Claudiu D
 
 ## Tests
 
 
-## Email me for any questions at :
+## Questions ? :
+[!(https://github.com/CD-prog)]
 c.diaconeasa@gmail.com

@@ -42,7 +42,12 @@ inquirer
         },
         {
             type: "input",
-            message: "E-mail me for any questions:",
+            message: "GitHub profile",
+            name: "github",
+        },
+        {
+            type: "input",
+            message: "E-mail:",
             name: "email",
         },
     ])
@@ -59,12 +64,13 @@ ${response.description}
 
 
 ## Table of Contents
-### Installation
-### Usage information
-### License
-### Contributing
-### Tests
-### Contact
+
+Installation
+Usage information
+License
+Contributing
+Tests
+Questions
 
 ## Installation
 ${response.installation}
@@ -81,7 +87,8 @@ ${response.contributing}
 ## Tests
 ${response.tests}
 
-## Email me for any questions at :
+## Questions ? :
+[!(https://github.com/${response.github})]
 ${response.email}
 `
         fs.writeFile('readme.md', text, function (err) {
