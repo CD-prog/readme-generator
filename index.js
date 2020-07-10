@@ -56,7 +56,15 @@ inquirer
 ## Description
 ${response.description}
 
+
+
 ## Table of Contents
+### Installation
+### Usage information
+### License
+### Contributing
+### Tests
+### Contact
 
 ## Installation
 ${response.installation}
@@ -76,10 +84,8 @@ ${response.tests}
 ## Email me for any questions at :
 ${response.email}
 `
-
         fs.writeFile('readme.md', text, function (err) {
             if (err) throw err;
             console.log('New readme file created !')
         })
-
     })
