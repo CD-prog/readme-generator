@@ -1,12 +1,15 @@
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 # readme-generator
+
 ## Description
-CLI app that generates/rewrites a readme.md file based on user input
+A command-line application that  allows for quick and easy generation of a project README to get started quickly
 
 ## Table of Contents
 
 ## Installation
-local
+node index.js
 
 ## Usage information
 any
@@ -18,7 +21,7 @@ MIT
 Claudiu Diaconeasa
 
 ## Tests
-none yet
+
 
 ## Email me for any questions at :
 c.diaconeasa@gmail.com

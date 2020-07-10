@@ -7,49 +7,52 @@ inquirer
         {
             type: "input",
             message: "Title of the project",
-            name:"title"
+            name: "title"
         },
         {
             type: "input",
             message: "Description:",
-            name:"description"
+            name: "description"
         },
         {
             type: "input",
             message: "Installation:",
-            name:"installation"
+            name: "installation"
         },
         {
             type: "input",
             message: "Usage:",
-            name:"usage"
+            name: "usage"
         },
         {
             type: "list",
             message: "License:",
-            name:"license",
-            choices:["Apache2","MIT","GPL"]
+            name: "license",
+            choices: ["Apache2", "MIT", "GPL"]
         },
         {
             type: "input",
             message: "Contributing:",
-            name:"contributing",
+            name: "contributing",
         },
         {
             type: "input",
             message: "Tests:",
-            name:"tests",
+            name: "tests",
         },
         {
             type: "input",
             message: "E-mail me for any questions:",
-            name:"email",
-        }, 
+            name: "email",
+        },
     ])
-    .then(function(response){
+    .then(function (response) {
         var text;
         text = `
+[![MIT license](https://img.shields.io/badge/License-${response.license}-blue.svg)](https://lbesson.mit-license.org/)
+
 # ${response.title}
+
 ## Description
 ${response.description}
 
@@ -74,9 +77,9 @@ ${response.tests}
 ${response.email}
 `
 
-        fs.writeFile('readme.md',text, function(err){
-            if(err) throw err;
-            console.log('File created')
+        fs.writeFile('readme.md', text, function (err) {
+            if (err) throw err;
+            console.log('New readme file created !')
         })
 
     })
