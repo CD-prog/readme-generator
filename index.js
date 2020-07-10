@@ -52,8 +52,7 @@ inquirer
         },
     ])
     .then(function (response) {
-        var text;
-        text = `
+        var text = `
 [![MIT license](https://img.shields.io/badge/License-${response.license}-blue.svg)](https://lbesson.mit-license.org/)
 
 # ${response.title}
@@ -64,13 +63,13 @@ ${response.description}
 
 
 ## Table of Contents
+#### [Installation](https://github.com/CD-prog/readme-generator#installation-1)
+#### [Usage information](https://github.com/CD-prog/readme-generator#usage-information-1)
+#### [License](https://github.com/CD-prog/readme-generator#license-1)
+#### [Contributing](https://github.com/CD-prog/readme-generator#contributing-1)
+#### [Tests](https://github.com/CD-prog/readme-generator#tests-1)
+#### [Questions](https://github.com/CD-prog/readme-generator#questions-)
 
-###Installation
-###Usage information
-###License
-###Contributing
-###Tests
-###Questions
 
 ## Installation
 ${response.installation}
@@ -91,8 +90,8 @@ ${response.tests}
 ### https://github.com/${response.github}
 ### ${response.email}
 `
-        fs.writeFile('readme.md', text, function (err) {
+        fs.writeFile('README.md',text, function (err) {
             if (err) throw err;
-            console.log('New readme file created !')
+            console.log('New README.md file created !')
         })
     })
