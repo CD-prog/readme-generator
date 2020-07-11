@@ -42,7 +42,7 @@ inquirer
         },
         {
             type: "input",
-            message: "GitHub profile",
+            message: "GitHub profile:",
             name: "github",
         },
         {
