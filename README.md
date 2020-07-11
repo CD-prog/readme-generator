@@ -4,7 +4,7 @@
 # readme-generator
 
 ## Description
-A CLI application that dynamically generates a professional README.md file from a user's input using node inquirer and fs packages 
+A CLI application that dynamically generates a professional README.md file from a user's input using node inquirer and fs packages
 
 
 
@@ -18,10 +18,10 @@ A CLI application that dynamically generates a professional README.md file from 
 
 
 ## Installation
-node index.js
+VS Code
 
 ## Usage information
-
+node index.js
 
 ## License
 MIT
@@ -30,8 +30,8 @@ MIT
 Pull requests are welcome
 
 ## Tests
-n/a
+N/A
 
 ## Questions ?
-### https://github.com/cd-prog
+### https://github.com/CD-prog
 ### c.diaconeasa@gmail.com
